@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        
+      
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>  
+        <property name="connection.url">jdbc:mysql://localhost:3306/ECommerce</property>  
+        <property name="connection.username">ashu</property>  
+        <property name="connection.password">ashu14mysql</property>  
+        
+        
+        
+        
+        
+        
+        <property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+    	<property name="hibernate.c3p0.idle_test_period">100</property>
+	<property name="hibernate.c3p0.preferredTestQuery">select 1;</property>
+        
+        <!-- JDBC connection pool (use the built-in) -->
+		<!--<property name="connection.pool_size">1</property>-->
+        
+        
+        
+        
+        
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        
+           <!--    it upadtes the table--> 
+        <property name="hbm2ddl.auto">update</property>    
+      
+        <!--it creates the table-->
+        <!--<property name="hbm2ddl.auto">create</property>   --> 
+        
+              
+        <property name="show_sql">true</property>  
+        <property name="format_sql">true</property>  
+        
+        
+        
+<!--        mapping -->        
+        <mapping class="com.learn.ecommerce.entities.User"/>     
+        <mapping class="com.learn.ecommerce.entities.Category"/>     
+        <mapping class="com.learn.ecommerce.entities.Product"/>     
+        <mapping class="com.learn.ecommerce.entities.OrderTableBuy"/>     
+        <mapping class="com.learn.ecommerce.entities.UserProduct"/>     
+        
+    </session-factory>
+    
+</hibernate-configuration>

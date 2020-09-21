@@ -1,0 +1,113 @@
+.wish-red{
+    color: red;
+    /* font-size: large; */
+}
+.wish-light{
+    color: lightpink;
+    /* font-size: large; */
+}   
+
+
+
+
+
+#admin .card{
+    border: 1px solid red;
+}
+#admin .card:hover{
+    background:#e2e2e2;
+    cursor: pointer;
+}
+
+.list-group-item.active{
+    background: #673ab7!important;
+    border-color: #673ab7!important;
+}
+.custom-bg{
+    background: #673ab7!important;
+}
+.discount-label{
+    font-size: 10px!important;
+    font-style: italic!important;
+}
+.product-card:hover{
+     background:#e2e2e2;
+    cursor: pointer;
+}
+
+
+
+/*toast*/
+
+
+#toast{
+	min-width:300px;
+	position:fixed;
+	bottom:30px;
+	left:35%;
+	margin-left:-120px;
+	background:#333;
+	padding:15px;
+	color:white;
+	text-align: center;
+	z-index:2;
+	font-size:18px;
+	visibility:hidden;
+	box-shadow:0px 0px 100px #000;
+}
+
+#toast.display{
+	visibility:visible;
+	animation:fadeIn 0.5s, fadeOut 0.5s 2.5s;
+	
+}
+
+@keyframes fadeIn {
+	
+	from{
+		bottom:0;
+		opacity:0;
+	}
+	to {
+		bottom:30px;
+		opacity:1;
+		
+	}
+	
+	
+	
+}
+
+@keyframes fadeOut {
+	
+	from{
+		bottom:30px;
+		opacity:0;
+	}
+	to {
+		bottom:0;
+		opacity:0;
+		
+	}
+	
+	
+	
+}
+
+
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#pLink :hover{
+    text-decoration: none!important;
+}
