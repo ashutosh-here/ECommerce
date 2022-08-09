@@ -1,10 +1,10 @@
-# ECommerce Webapp
+# ECommerce Webapp :ticket: :convenience_store::dark_sunglasses:
 
 A model e-commerce web application made entirely using *JAVA* as back-end applying ORM principles of <b>Hibernate Framework</b>.
 
-## Tools & Technologies used 
+## Tools & Technologies used :performing_arts:
 
-### *Front-end* 
+### *Front-end* :computer:
 
 * HTML5
 * CSS3
@@ -13,7 +13,7 @@ A model e-commerce web application made entirely using *JAVA* as back-end applyi
 * Bootstrap 4
 * AJAX
 
-### *Back-end* 
+### *Back-end* :desktop_computer:
 
 * Servlet
 * Java Server Page (JSP)
@@ -24,10 +24,10 @@ A model e-commerce web application made entirely using *JAVA* as back-end applyi
 * DAO Design Pattern
 * C3P0 Connection Pool
 
-## *Framework* 
+## *Framework* :gear:
 * Hibernate 5.2 
 
-## Payment Integration 
+## Payment Integration :credit_card:
 * #### PayPal Payment Integration API
 
  #### ``Note:`` To run this in your localhost clone the repository and open the nb-configuration file from NetBeans IDE.  
@@ -38,7 +38,7 @@ A model e-commerce web application made entirely using *JAVA* as back-end applyi
  * #### `````````````Email : a@ad `````````````
  * #### `````````````Password : a `````````````
  
- # Features &  Screencasts 
+ # Features &  Screencasts :iphone:
  
  * Home Page
  <img  src="https://user-images.githubusercontent.com/69616825/93709226-3ac77500-fb5a-11ea-83a1-8f2e0e1d02a0.gif" width="950" height="450" />
@@ -311,7 +311,7 @@ A model e-commerce web application made entirely using *JAVA* as back-end applyi
 <img src="https://user-images.githubusercontent.com/69616825/93710919-c4ca0a80-fb67-11ea-8037-86e3af21e0fe.gif" width="950" height="450" />
 
 
-## License 
+## License :rocket:
 
 This project is licensed under the MIT License - see the [LICENSE.md] file for details
 
